@@ -1,0 +1,1873 @@
+/* /webmd/PageBuilder_Assets/CSS/HTML/Footer - Harmony/Standard Footer Harmony_091e9c5e80edf253.css */
+
+/* =============================================================================
+	Overrides to Site CSS (added at runtime for Harmony)
+	Placing in footer CSS temporarily to get in Base Template CSS Aggr
+========================================================================== */
+
+@charset "utf-8";
+
+body {
+	background-color: #fff;
+	margin: 0; 
+	padding: 0;
+}
+body, div, p {
+	font-family: Lato, Arial, sans-serif;
+	font-size: 16px;
+}
+a:link, a:active {
+	text-decoration: none;
+	color: #1295cc;
+}
+a:visited {
+	text-decoration: none;
+	color: #1295cc;
+}
+a:hover, a:focus {
+	text-decoration: underline;
+	color: #1295cc;
+}
+
+
+
+
+/* =============================================================================
+ Footer
+========================================================================== */
+footer {
+background: #fff;
+line-height: 2;
+}
+footer .footerContent {
+padding:40px 0 20px 0;
+}
+footer .links ul ul {
+font-size: 0.9em;
+margin-bottom:20px;
+padding-left:53px;
+}
+footer .links ul ul.about {
+padding-left: 30px;
+}
+footer .social  {
+margin-top:7px;
+text-align: center;
+}
+footer .certificate  {
+margin:25px 0;
+text-align: center;
+}
+footer .certificate:last-child  {
+margin-bottom:0;
+}
+
+
+
+.thin footer .footerContent {
+position: relative;
+}
+.thin footer .logo, .small footer .logo {
+display: none;
+position: absolute;
+right: 27px;
+top: 45px;
+}
+.thin footer .column:last-child {
+margin-left:20px;
+}
+.thin footer .links ul ul {
+padding-left: 35px;
+}
+.thin footer .links ul ul.about {
+padding-left: 10px;
+}
+.thin footer .social {
+margin-top: 60px;
+}
+
+
+.small footer {
+line-height: 1.5;
+}
+.small footer .footerContent {
+padding-top:20px;
+}
+.small footer .column:last-child {
+margin-left:20px;
+}
+.small footer .links ul ul {
+padding-left:25px;
+}
+.small footer .certificate  {
+float:left;
+padding-right:20px;
+}
+.small footer .certificate:last-child  {
+padding-right:0px;
+}
+.small footer .other {
+float:none;
+padding-left:10px;
+}
+
+
+/* =============================================================================
+ Alignment classes
+========================================================================== */
+.floatRight {
+float:right;
+}
+.floatLeft {
+float:left;
+}
+
+/* =============================================================================
+ Social
+========================================================================== */
+.social a {
+background:url('http://css.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/global/social_sprite.png') no-repeat;
+display: block;
+margin-left:15px;
+height:29px;
+width:30px;
+}
+.social li:first-child a {
+margin-left:0;
+}
+a.tw {
+background-position: -31px 0;
+}
+a.pt {
+background-position: -62px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /webmd/PageBuilder_Assets/CSS/EditorialModule/Harmony Carousel Spotlight/Default_091e9c5e80f2fc2e.css */
+
+.spotlight.module a {
+  clear: both;
+  display: block;
+}
+.spotlight.module h4 {
+	color: #272727;
+	font-family: Lato, Arial, sans-serif;
+}
+.spotlight.module .singleheader {
+  position:relative;
+}
+.spotlight.module .expert .title {
+  color: #666;
+  font-size: 1.2em;
+  margin-bottom: 0.2em;
+}
+.spotlight.module .info .title {
+  color: #666;
+  font-size: 1.4em;
+  margin-bottom: 1em;
+}
+.spotlight.module .text {
+  color: #616161;
+  padding-top:20px;
+}
+.spotlight.module .expert {
+  border-bottom: solid 1px #eee;
+  border-top: solid 1px #eee;
+  margin: 1em 0;
+  padding: 1em 0;
+}
+.spotlight.module .expert img {
+  float: left;
+  margin-right: 1em;
+  width: 40px;
+}
+.spotlight.module li.video a::before{
+	background: url('../../../../webmd/consumer_assets/site_images/modules/video_arrow_70x70.png') no-repeat; no-repeat;
+	background-size: 70px 70px;	
+	content:"";
+	display: block;
+	height: 70px;
+	left: 112px;
+	opacity: .7;
+	position: absolute;
+	top: 70px;
+	width: 70px;
+	z-index: 1;
+}
+.spotlight.module .thumbs li.video a::before {
+	display:none;
+}
+.spotlight.module .single .rsBullets {
+	display:none;
+	}
+.spotlight.module .single .list a {
+	color: #616161;
+	} 
+.spotlight.module .single .thumbs a {
+	color:#666;
+	}
+.spotlight.module .single .list, .spotlight.module .single .thumbs {
+	border-top: 1px solid #ccc;
+	clear:both;
+	padding-top:10px;
+	}
+.spotlight.module .single .list {
+	clear:both;
+	padding-top:10px;
+	}
+.spotlight.module .single .thumbs li{
+	overflow:auto;
+	padding-bottom:5px;
+	position:relative;
+	}		
+.spotlight.module .single .thumbs a img{
+	float:left;
+	width:76px;
+	}	
+.spotlight.module .single .thumbs .thumbtext{
+	float:left;
+	margin-left:10px;
+	width:200px;
+	}
+.thin .spotlight.module .single .thumbs .thumbtext{
+	width:180px;
+	}	
+.spotlight.module .single .thumbs .thumbtext .text{
+	width:100%;
+	}	
+.spotlight.module .single .thumbs .thumbtext .action{
+	width:100%;
+	font-size: .8em;
+	}	
+.spotlight.module .thumbs .text {
+  color: #272727;
+  padding-top:0px;
+}
+.spotlight.module .single .thumbs li.video a::before {
+	background: url('../../../../webmd/consumer_assets/site_images/modules/video_arrow_35x35.png') no-repeat; no-repeat;
+	background-size: 35px 35px;
+	content:"";
+	display: block;
+	height: 35px;
+	left: 23px;
+	opacity: .7;
+	position: absolute;
+	top: 22px;
+	width: 35px;
+	z-index: 1;
+}
+
+
+
+
+
+
+
+/* /webmd/PageBuilder_Assets/CSS/091e9c5e8000511f/Top Search Terms/Default_091e9c5e80f2992b.css */
+
+.topSearchTerms .content {
+    padding-bottom: 1.2em;
+}
+.topSearchTerms ul {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.topSearchTerms li {
+    float: left;
+    margin-bottom: 1.1em;
+    width: 50%;
+}
+.topSearchTerms li:nth-child(odd) {
+    clear: left;
+}
+.topSearchTerms li:nth-child(even) {
+    clear: right;
+}
+.topSearchTerms .content a {
+    color: #222;
+    display: inline;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+/* Override the Harmony styles on the Home Page only -DW */
+#lln-topsrch-hp h2 {
+    color: #666;
+    font-family: inherit;
+    font-size: 0.95em;
+}
+
+
+
+
+
+
+
+/* /webmd/PageBuilder_Assets/CSS/HTML/HTML  HH/SymptomChcker_091e9c5e80f33a9b.css */
+
+div.symptomChecker {
+    width: 67%;
+    background-image: url('http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/symptom_checker/images/home_promo_back.jpg');
+    background-size: auto;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-color: #E2F1F6;
+    display: inline-block;
+    float: left;
+    min-height: 551px;
+    padding: 33px 20px 0 274px;
+}
+
+.thin div.symptomChecker {
+    padding-left: 221px;
+    min-height: 520px;
+    width: 61%;
+}
+
+div.symptomChecker .mainHeading {
+    font-size: 2em;
+}
+
+.thin div.symptomChecker .mainHeading {
+    font-size: 1.75em;
+}
+
+div.symptomChecker .subHeading {
+    margin-top: 0.2em;
+    color: #787878;
+    margin-bottom: 1.5em;
+    font-size: 0.9em;
+}
+
+div.symptomChecker .sectionHeading {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.thin div.symptomChecker .sectionHeading {
+    font-size: 2.4rem;
+}
+
+div.symptomChecker a {
+    display: block;
+    margin-bottom: 0.8em;
+    font-size: 1.1em;
+}
+
+.thin div.symptomChecker a {
+    margin-bottom: 1em;
+    font-size: 1em;
+}
+
+div.symptomChecker button.webmdBtn {
+    padding: 10px;
+    height: 42px;
+    width: 160px;
+    font-size: 13px;
+    margin-top: 1em;
+}
+.symptom-checker-small {
+    background-image: url('../../../consumer_assets/site_images/symptom_checker/images/home-promo-rr_320x452.jpg');
+    background-repeat: no-repeat;
+    background-color: #E2F1F6;
+    padding: 1.4rem 0 1.8rem 2rem;
+}
+.symptom-checker-small h2, .symptom-checker-small h3, .symptom-checker-small p {
+    font-family: Lato,Arial,sans-serif;
+}
+.symptom-checker-small h2 {
+    color: #222;
+    font-size: 3.4rem;
+    font-weight: normal;
+    line-height: 1.3;
+    margin-bottom: .8rem;
+}
+.symptom-checker-small h3 {
+    color: #000;
+    font-size: 2.4rem;
+    padding-right: 4.8rem;
+    line-height: 1.3;
+}
+.symptom-checker-small p {
+    color: #666;
+    font-size: 1.5rem;
+    line-height: 1.3;
+}
+.symptom-checker-small ul li {
+    margin: 1rem 0;
+}
+.symptom-checker-small a {
+    display: block;
+    font-size: 1.8rem;
+}
+.symptom-checker-small button.webmdBtn {
+    padding: 10px;
+    height: 42px;
+    width: 160px;
+    font-size: 1.4rem;
+}
+
+
+
+/* /webmd/PageBuilder_Assets/CSS/EditorialModule/newsletter-signup/Default_091e9c5e80f3c11b.css */
+
+div.newsletterSignup {
+    min-height: 284px;
+}
+div.newsletterSignup .module-content h3, div.newsletterSignup .module-content .description h4 {
+    font-family: Lato,Arial,Verdata,Helvetica,sans-serif;
+    color: black;
+}
+div.newsletterSignup .module-header p {
+    padding-left: 1.1em;
+    color: gray;
+}
+.thin div.newsletterSignup .module-header p {
+    font-size: 0.9em;
+}
+div.newsletterSignup .module-content ul {
+    display: inline-block;
+    list-style-type: none;
+    padding-bottom: 24px;
+    width: 99.5%;
+    padding: 10px;
+}
+div.newsletterSignup .module-content ul + ul {
+    border-left: 1px solid #eaeaea;
+}
+div.newsletterSignup .module-content li {
+    position: relative;
+    font-size: 1.1em;
+}
+div.newsletterSignup li {
+    *zoom: 1;
+}
+div.newsletterSignup li:before, div.newsletterSignup li:after {
+    content: "";
+    display: table;
+}
+div.newsletterSignup li:after {
+    clear: both;
+}
+div.newsletterSignup li:hover {
+    z-index: 3;
+}
+div.newsletterSignup li:hover h3 {
+    color: #dc7f00;
+}
+.thin div.newsletterSignup li:hover h3 {
+    color: #000000;
+}
+div.newsletterSignup li:hover h3:hover ~ .description {
+    display: block;
+}
+div.newsletterSignup li h3, div.newsletterSignup li label {
+    display: block;
+    line-height: 23px;
+}
+div.newsletterSignup li h3 {
+    float: left;
+    font-size: 1em;
+    line-height: 23px;
+}
+div.newsletterSignup li label {
+    background-color: #eeeef0;
+    color: #787878;
+    float: right;
+    font-size: 0.8em;
+    padding: 0.1em 0.75em;
+    width: 80px;
+    text-align: center;
+}
+div.newsletterSignup li input {
+    display: none;
+}
+div.newsletterSignup li input:checked + label {
+    background-color: #f67f00;;
+    color: white;
+}
+div.newsletterSignup li .newsletter {
+    *zoom: 1;
+}
+div.newsletterSignup li .newsletter:before, div.newsletterSignup li .newsletter:after {
+    content: "";
+    display: table;
+}
+div.newsletterSignup li .newsletter:after {
+    clear: both;
+}
+div.newsletterSignup li .description {
+    background-color: #eaeaea;
+    border: 1px solid #dcdcdc;
+    display: none;
+    line-height: 1.2;
+    position: absolute;
+    top: 17px;
+    left: 0;
+    padding: 10px;
+    width: 100%;
+}
+div.newsletterSignup li .description h4 {
+    font-size: 1.2em;
+    margin-bottom: 3px;
+}
+div.newsletterSignup li .description p {
+    color: #333;
+}
+div.newsletterSignup .newsletters-form-view {
+    background: #eaeaea;
+    display: none;
+    padding: 0 12px;
+    margin-left: -16px;
+    margin-right: -16px;
+}
+div.newsletterSignup .newsletters-form-view *, div.newsletterSignup .newsletters-form-view *:before, div.newsletterSignup .newsletters-form-view *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div.newsletterSignup .newsletters-form-view form {
+    display: table;
+    padding: 12px 0;
+    width: 100%;
+}
+div.newsletterSignup .newsletters-form-view input, div.newsletterSignup .newsletters-form-view button {
+    display: table-cell;
+    font-size: 0.9em;
+    margin: 0;
+    padding: 1em;
+}
+div.newsletterSignup .newsletters-form-view input {
+    border: 1px solid #d1d1d1;
+    margin-right: 8px;
+    width: 70%;
+    padding: 5px;
+    line-height: 30px;
+    font-size: 14px;
+    min-height: 40px;
+    float: left;
+}
+div.newsletterSignup .newsletters-form-view input:invalid {
+    box-shadow: none;
+}
+.thin div.newsletterSignup .newsletters-form-view input {
+    width: 68%;
+}
+div.newsletterSignup .newsletters-form-view button {
+    cursor: pointer;
+    display: block;
+    border: 0;
+    margin: 0;
+    padding: 1em 4em;
+    position: relative;
+    text-align: center;
+    font-family: Lato,Arial,Verdata,Helvetica,sans-serif;
+    font-size: 13px;
+    display: inline-block;
+    padding: 12px;
+    width: 77px;
+    float: right;
+}
+div.newsletterSignup .newsletters-form-view button:disabled {
+    background-color: #ffae43;
+}
+div.newsletterSignup .newsletters-form-view button:disabled:hover {
+    cursor: auto;
+}
+div.newsletterSignup .newsletters-form-view a {
+    color: #5493ca;
+    display: inline-block;
+}
+div.newsletterSignup .newsletters-form-view p {
+    font-size: 0.9em;
+    margin-top: -0.5em;
+    padding-bottom: 24px;
+}
+div.newsletterSignup .newsletters-success-view {
+    display: none;
+}
+div.newsletterSignup .newsletters-success-view .notice {
+    background-color: #eaeaea;
+    padding: 15px;
+}
+div.newsletterSignup .module-content h3 {
+    cursor: context-menu;
+}
+div.newsletterSignup .newsletters-success-view .notice h3 {
+    font-size: 1.6em;
+    color: black;
+}
+div.newsletterSignup .newsletters-success-view .notice p {
+    color: #333;
+    font-size: 1.1em;
+}
+div.newsletterSignup .newsletters-success-view .notice a {
+    color: #5493ca;
+    display: inline;
+}
+div.newsletterSignup .newsletters-success-view .suggestions {
+    padding: 15px;
+    padding-bottom: 0;
+}
+div.newsletterSignup .newsletters-success-view .suggestions h4 {
+    color: #91a829;
+    font-size: 1.2em;
+    padding-bottom: 13px;
+}
+div.newsletterSignup .newsletters-success-view .suggestions .image-asset {
+    float:left;
+    display: inline-block;
+    overflow: hidden;
+    width: 38%;
+}
+div.newsletterSignup .newsletters-success-view .suggestions .image-asset img {
+    width: 100%;
+}
+div.newsletterSignup .newsletters-success-view .suggestions .textBox {
+    width: 58%;
+    float:left;
+    display: inline-block;
+    margin-left: 8px;
+    text-align: left;
+}
+div.newsletterSignup .newsletters-success-view .suggestions .links {
+    width: 100%;
+    text-align: justify;
+}
+div.newsletterSignup .newsletters-success-view .suggestions .links:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    zoom: 1;
+    *display: inline;
+}
+div.newsletterSignup .newsletters-success-view .suggestions a {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+/* /webmd/PageBuilder_Assets/CSS/091e9c5e80005117/Harmony Carousel/Horizontal_091e9c5e80f2d875.css */
+
+.carousel {
+  clear: both;
+}
+.carousel .spacer {
+  height: 1em;
+}
+#s4 .carousel h3 {
+  font-size: 1em;
+}
+.carousel h3 {
+  font-size: 1.375em;
+}
+.carousel.module .type sup {
+  display: none;
+}
+.carousel.module .title {
+  font-size: 1.1em;
+}
+.thin .carousel.module .title {
+  font-size: inherit;
+}
+.thin .carousel.module .description {
+  font-size: 0.9em;
+}
+
+/* Video */
+#ed-vidrelcon {
+  margin-top: 1em;
+}
+
+/* Hero override */
+#prm-ctr.carousel.module .title {
+  font-size: 1.5em;
+}
+
+/* Today on WebMD override */
+#ed-tdywbmd-hp.module .header h3 {
+  font-size: 0.95em;
+  font-family: inherit;
+  color: #666;
+}
+.module .todayOn .title {
+  font-size: 1.1em;
+  color: #222;
+}
+
+/* Living Healthy Tools override */
+#ed-lvnghlthytools .module-header h3 {
+  background: none repeat scroll 0 0 #1295cc;
+  color: #fff;
+  font-family: "Roboto Slab",serif;
+  font-size: 1em;
+  padding: 1em;
+}
+
+/* Sponsored */
+.thin [id^=you-might-also-like] .listHorizontal .thumb img {
+  width: auto;
+}
+[id^=prm-ctr] .sponsored,
+[id^=further-reading] .sponsored,
+[id^=you-might-also-like] .sponsored,
+[id^=related-content] .sponsored {
+  color: #f63;
+}
+[id^=prm-ctr] .segmented,
+[id^=further-reading] .segmented,
+[id^=you-might-also-like] .segmented,
+[id^=related-content] .segmented {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: none;
+}
+[id^=you-might-also-like] .title {
+  width: 280px;
+}
+
+
+
+
+
+
+
+
+
+/* /webmd/PageBuilder_Assets/CSS/091e9c5e8000511c/HTML  HH/Conversations_091e9c5e80f456bb.css */
+
+.convTwitter.module .module-content {
+    border-bottom: 1px solid #eee;
+    margin: 0 1em;
+    padding: 1em 0 0 0;
+}
+
+div.convTwitter, div.convFacebook {
+    border-left: none;
+    float: left;
+    display: inline-block;
+    min-height: 200px;
+    width: 33%;
+}
+
+div.convFacebook {
+    border-top: none;
+    width: 33%;
+}
+
+div.convTwitter {
+    border-bottom:none;
+    margin-bottom: 0;
+}
+
+div.convBlog {
+    width: 66%;
+    float: left;
+    display: inline-block;
+    min-height: 400px;
+}
+
+div.convBlog .content {
+    margin-top: 3.8em;
+}
+
+/* --- shared subheadings ---- */
+div.convTwitter .subHeading,
+div.convFacebook .subHeading,
+div.convBlog .subHeading {
+    display: block;
+    width: 100%;
+    min-height: 20px;
+    margin-bottom: 2.3rem;
+}
+
+div.convBlog .subHeading {
+    margin-bottom: 1.7rem;
+    margin-top: .3rem;
+}
+
+div.convTwitter .subHeading h4,
+div.convFacebook .subHeading h4,
+div.convTwitter .subHeading span,
+div.convFacebook .subHeading span {
+    color: #666;
+    display: inline-block;
+    float: left;
+    font-family: Lato,Arial,sans-serif;
+    font-size: 1.4rem;
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+div.convBlog .subHeading h4,
+div.convBlog .subHeading span{
+    color: #666;
+    display: inline-block;
+    float: left;
+    font-size: 1.8rem;
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+div.convTwitter .subHeading span,
+div.convFacebook .subHeading span,
+div.convBlog .subHeading span {
+    font-size: .9em;
+    margin-top: 1px;
+}
+
+div.convTwitter  span.divider,
+div.convFacebook  span.divider,
+div.convBlog  span.divider {
+    width: 2px;
+    background-color: gray;
+    margin: 0 5px 0 5px;
+    font-size: 1px;
+    height: 15px;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+div.convTwitter .subHeading .subheadRight,
+div.convFacebook .subHeading .subheadRight,
+div.convBlog .subHeading .subheadRight {
+    float:right;
+    min-width: 90px;
+}
+
+div.convTwitter  .subheadRight .logo,
+div.convFacebook  .subheadRight .logo,
+div.convBlog .subHeading .subheadRight .logo{
+    height: 22px;
+    width: 22px;
+    display: inline-block;
+    float:right;
+}
+
+div.convTwitter .subheadRight .logo {
+    width: 21px;
+    background: url(http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/icons/conversations_sprite.png) 0 0;
+}
+div.convFacebook .subheadRight .logo {
+    margin-top: -3px;
+    background: url(http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/icons/conversations_sprite.png) -22px 0;
+}
+
+/* ---- def item blocks for shared ------- */
+
+div.convTwitter .itemHolder, div.convFacebook .itemHolder, div.convTwitter .itemHolder .item, div.convFacebook .itemHolder .item  {
+    display: block;
+    width: 100%;
+    min-height: 30px;
+}
+
+div.convTwitter .item, div.convFacebook .item {
+    border-top: 1px solid transparent;
+    overflow: auto;
+    margin-top: 16px;
+    color: black;
+    overflow: hidden;
+}
+
+div.convTwitter .item:last-child, div.convFacebook .item:last-child {
+    margin-bottom: 16px;
+}
+
+.convTwitter .col1 {
+    float: left;
+    margin-right: .8rem;
+}
+
+div.convTwitter .item .col1, div.convFacebook .item .col1 {
+    width: 50px;
+    min-height: 50px;
+    border: 1px solid #C8C8C8;
+}
+
+div.convTwitter .item .col2, div.convFacebook .item .col2 {
+    width: 100%;
+    min-height: 50px;
+}
+
+/* ---- def item blocks for Twitter ------- */
+div.convTwitter .item .itemHeader {
+    color: #666;
+}
+
+div.convTwitter .item .col1 img {
+    width: 100%;
+}
+
+div.convTwitter .item .itemHeader .name {
+    font-weight: bold;
+}
+
+.thin div.convTwitter .item .itemHeader .name {
+    width: 70%;
+}
+
+.thin div.convTwitter .item .itemHeader .name {
+    font-size: 1.3rem;
+}
+
+.thin div.convTwitter .item, .thin .itemHeader, .thin .address, .thin .comments {
+    font-size: 0.9em !important;
+}
+
+.thin .linksRow, .thin .authorRow {
+    font-size: 0.9em !important;
+}
+
+div.convTwitter .item .itemHeader .time {
+    display: none;
+    float: right;
+    font-size: 1.2rem;
+    text-align: right;
+    width: 25%;
+}
+
+.thin div.convTwitter .item .itemHeader .time {
+    margin-top: 0.8rem;
+    width: 32%;
+}
+
+div.convTwitter .comments, div.convTwitter .linksRow {
+    margin-top: 7px;
+}
+
+div.convTwitter .linksRow a {
+    color: gray;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding-left: 2rem;
+}
+
+div.convTwitter .linksRow a:first-child {
+    padding-left: 5px;
+}
+
+div.convTwitter .linksRow a div {
+    display: inline-block;
+    width: 13px;
+    height: 12px;
+    margin-right: 5px;
+}
+
+div.convTwitter .linksRow .reply div {
+    background: url(http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/icons/conversations_sprite.png) -44px 0;
+}
+
+div.convTwitter .linksRow .retweet div {
+    height: 10px;
+    width: 15px;
+    background: url(http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/icons/conversations_sprite.png) -56px 0;
+}
+
+div.convTwitter .linksRow .favorite div {
+    width: 15px;
+    height: 13px;
+    background: url(http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/icons/conversations_sprite.png) -74px 0;
+}
+
+div.convTwitter .address, div.convTwitter .comments {
+    color: #222;
+    font-size: 1.4rem;
+}
+
+
+.convTwitter .comments {
+    padding-top: 1rem;
+}
+
+div.convTwitter .address a {
+    color: #666;
+    text-decoration: none;
+    color: inherit;
+}
+
+.thin div.convTwitter .address a {
+    font-size: 1rem;
+}
+
+/* ----------- facebook item definitions ----------- */
+
+div.convFacebook .item .col1 {
+    width: 100%;
+    border: 0;
+}
+
+div.convFacebook .item .col2 {
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+div.convFacebook .item .col2 .comments {
+    color: #222;
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+div.convFacebook .item .col1 .img {
+    width: 50px;
+    display:inline-block;
+    float: left;
+    overflow: hidden;
+    border: 1px solid #C8C8C8;
+}
+
+div.convFacebook .item .col1 .text {
+    color: #666;
+    margin-left: 8px;
+    display:inline-block;
+    float: left;
+}
+
+div.convFacebook .item .col1 .text div {
+    display: block;
+}
+
+div.convFacebook .item .col1 .text div:first-child {
+    font-weight: bold;
+}
+
+div.convFacebook .item .col1 .text div:last-child {
+    font-size: 1.2rem;
+}
+
+div.convFacebook .item .subject {
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+
+div.convFacebook .item .subjectLink {
+    font-size: 0.9em;
+}
+
+div.convFacebook .item span.divider {
+    height: 12px;
+}
+
+div.convFacebook .item .linksRow {
+    font-size: 1.4rem;
+    margin-top: 5px;
+}
+
+div.convFacebook .item .comments img {
+    margin-right:6px;
+    float:left;
+}
+
+/* ------------- blog definitions --------------- */
+
+div.convBlog .blogImage {
+    display:block;
+    width: 100%;
+    border: 1px solid gray;
+    margin-top: 1rem;
+}
+
+div.convBlog .blogImage img {
+    width: 100%;
+}
+
+div.convBlog .blogTitle {
+    font-size: 2.6rem;
+    margin-top: 1.4rem;
+}
+
+div.convBlog .blogTitle a, div.convBlog .blogContent a {
+    text-decoration: none;
+    color: #222;
+}
+
+div.convBlog .blogContent {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+div.convBlog .linksRow {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
+
+div.convBlog .authorRow {
+    font-size: 1.4rem;
+    margin: .5rem 0 2rem 0;
+}
+
+div.convBlog .authorRow a {
+    font-size: 0.95em;
+    color: black;
+    text-decoration: none;
+}
+
+div.convBlog span.divider {
+    height: 12px;
+}
+
+div.convBlog .subHeading span {
+    display: block;
+    width: 100%;
+}
+
+
+
+/* /webmd/PageBuilder_Assets/CSS/091e9c5e80005117/Special Report/Default_091e9c5e80f2992a.css */
+
+.specialReport {
+  padding-bottom: 1em;
+  width: 67%;
+  min-height: 430px;
+  float: left;
+}
+.specialReport.module .content {
+  padding-right: 1em;
+}
+.specialReport a, .specialReport a:hover, .specialReport a.visited {
+  text-decoration: none;
+  display: block;
+}
+.specialReport:after {
+  clear: both;
+}
+.specialReport a {
+  overflow: hidden;
+  position: relative;
+}
+.specialReport img {
+  width: 100%;
+}
+.specialReport .caption {
+  border: 0;
+  line-height: 1.25;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.specialReport .caption.overlay {
+  background: #fff;
+  bottom: 0;
+  left: 0;
+  opacity: 0.8;
+  position: absolute;
+  right: 0;
+}
+.specialReport .caption h3 {
+  color: #222;
+  font-family: inherit;
+  font-size: 1.5em;
+  margin: 20px 20px 10px;
+}
+.specialReport .caption p {
+  color: #222;
+  font-size: 0.95em;
+  margin-bottom: 1.1em;
+}
+.specialReport .outline {
+  margin: 0 20px 10px;
+}
+
+
+
+/* /webmd/PageBuilder_Assets/CSS/EditorialModule/One Question Quiz/Default_091e9c5e80f38c5d.css */
+
+/* ---- shared styles ----- */
+div.oneQuestionQuiz {
+    border-left: none;
+    width: 33%;
+    min-height: 430px;
+    background-color: white;
+    display: inline-block;
+    float: left;
+}
+
+div.oneQuestionQuiz .question {
+    color: #222;
+    font-size: 1.5em;
+    margin: 2.2em 0.8em 0.8em 0.8em;
+}
+
+.thin div.oneQuestionQuiz .question {
+    font-size: 1.35em;
+}
+
+div.oneQuestionQuiz .rowBreaker {
+    display: block;
+    font-size: 1px;
+    clear: both;
+}
+
+div.oneQuestionQuiz .inputView,
+div.oneQuestionQuiz .resultView{
+    display: inline-block;
+    margin: 0 1em 0 1.2em;
+}
+
+div.oneQuestionQuiz .resultView {
+    display: none;
+}
+
+div.oneQuestionQuiz .inputView form input {
+    float: left;
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+}
+
+div.oneQuestionQuiz .inputView form .labelWrap {
+    float: left;
+    display: inline-block;
+    width: 80%;
+    margin: -2px 0 1.2em 8px;
+}
+
+div.oneQuestionQuiz .inputView form label {
+    display: inline;
+    color: #222;
+}
+
+div.oneQuestionQuiz .inputView .webmdBtn {
+    padding: 10px;
+    height: 42px;
+    width: 130px;
+    font-size: 13px;
+    margin-top: 1em;
+}
+
+div.oneQuestionQuiz .inputView .submit:disabled {
+    opacity: 0.6;
+}
+
+/* ------ resultView ------- */
+
+div.oneQuestionQuiz .resultView h3 {
+    font-size: 1.4em;
+    margin: 10px 0 0 10px;
+    display: inline-block;
+    white-space: normal;
+    width: calc(100% - 60px);
+}
+
+div.oneQuestionQuiz .resultView img {
+    vertical-align: top;
+}
+
+div.oneQuestionQuiz .resultView .incorrect h3 {
+    color: #FF7600;
+}
+
+div.oneQuestionQuiz .resultView .correct,
+div.oneQuestionQuiz .resultView .incorrect {
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+div.oneQuestionQuiz .resultView .resultText,
+div.oneQuestionQuiz .resultView .reason {
+    color: #787878;
+    margin: 5px 0 0 61px;
+    line-height: 20px;
+    font-size: 1em;
+}
+.thin div.oneQuestionQuiz .resultView .resultText,
+.thin div.oneQuestionQuiz .resultView .reason {
+    font-size: 0.9em;
+    margin-left: 5px;
+}
+.thin div.oneQuestionQuiz .resultView .correct,
+.thin div.oneQuestionQuiz .resultView .incorrect {
+    padding-bottom: 3px;
+}
+.thin div.oneQuestionQuiz .resultView h3 {
+    font-size: 1.8rem;
+    margin-top: 13px;
+}
+
+
+
+
+
+/* /webmd/PageBuilder_Assets/CSS/091e9c5e8000511f/Health Conditions/Default_091e9c5e80f2a114.css */
+
+.healthConditions {
+  padding: 0 1em 1em 0;
+}
+.healthConditions .module-header h2 {
+  display: inline-block;
+  float: left;
+}
+.healthConditions .module-header form {
+  float: right;
+  border: thin solid #eaeaea;
+  height: 36px;
+  margin-top: 24px;
+  position: relative;
+  width: 330px;
+}
+.healthConditions form input.search {
+  position: absolute;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  line-height: 31px;
+  height: 31px;
+  padding-left: 10px;
+  width: 300px;
+  background-color: transparent;
+}
+.healthConditions form a.submit {
+  color: #f67f00;
+  position: absolute;
+  right: 0;
+  padding: 4px 8px;
+  font-size: 1.2em;
+}
+.healthConditions .module-content ul {
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  -ms-column-count: 4;
+  -o-column-count: 4;
+  column-count: 4;
+  list-style-type: none;
+  margin-bottom: 1em;
+}
+.healthConditions li {
+  margin-bottom: 1em;
+}
+.healthConditions .module-content ul a {
+  color: black;
+  display: block;
+}
+.healthConditions .seeAll {
+  display: block;
+  text-align: right;
+  width: 100%;
+}
+.healthConditions .seeAll:after {
+  clear: both;
+}
+.healthConditions .seeAll a {
+  float: right;
+  font-size: 0.9em;
+}
+
+
+
+
+
+
+
+/* /webmd/PageBuilder_Assets/CSS/091e9c5e80005117/Main Feature Package Hero/Default_091e9c5e80f29924.css */
+
+.heroWithCaption a {
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+.heroWithCaption img {
+  width: 100%;
+}
+.heroWithCaption .caption {
+  border: 0;
+  line-height: 1.25;
+  margin: 0;
+  padding: 1em;
+  position: relative;
+}
+.thin .heroWithCaption .caption {
+  position: inherit;
+}
+.heroWithCaption .caption h2 {
+  color: #222;
+  font-family: inherit;
+  line-height: 1.3;
+}
+.heroWithCaption .caption p {
+  color: #222;
+  font-size: 0.95em;
+}
+.heroWithCaption .caption.overlay {
+  background: #fff;
+  bottom: 0;
+  left: 0;
+  opacity: 0.8;
+  position: absolute;
+  right: 0;
+}
+.heroWithCaption ul {
+    margin: 0 0 1em 1em;
+}
+.heroWithCaption ul li {
+    margin: 0 0 .2em 0;
+}
+.heroWithCaption ul li a, 
+.heroWithCaption ul li a:link, 
+.heroWithCaption ul li a:visited {
+    color: #222;
+    display: inline;
+    font-size: 0.95em;
+    padding: .5em .5em .5em 0;
+    text-decoration: none;
+}
+.heroWithCaption ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* /webmd/PageBuilder_Assets/CSS/091e9c5e80005117/Top Stories/Default_091e9c5e80f29927.css */
+
+.topStories.module {
+    overflow:auto;
+    padding-bottom:1em;
+}
+
+.topStories.module .module-content {
+    padding-right: 1.875em;
+}
+
+.topStories .module-header h2 {
+    display: inline-block;
+    float: left;
+}
+
+.topStories .module-header a {
+    float:right;
+    margin: 35px 20px 0 0;
+}
+
+.thin .topStories .module-header a {
+    margin-top: 32px;
+}
+
+.topStories .summary {
+    float: right;
+    padding: 0 0 0 1.875em;
+    width: 50%;
+}
+.topStories .summary p,
+.topStories .outline p {
+    font-size: 0.9em;
+    color: #666;
+}
+.topStories .mainStory {
+    margin-bottom: 2.5em;
+    position: relative;
+}
+.topStories .mainStory h3 {
+    color: #222;
+    font-size: 1.5em;
+    font-family: inherit;
+    line-height: 1.2;
+    padding-bottom: 0.5em;
+}
+
+.thin .topStories .mainStory h3 {
+    font-size: 1.8rem;
+}
+
+.topStories a,
+.topStories a:hover {
+    text-decoration: none;
+}
+.topStories .mainStory a {
+    display: block;
+    height: 100%;
+}
+.topStories .mainStory .image-asset {
+    float: left;
+    overflow: hidden;
+    width: 50%;
+}
+
+/* 
+    The Following styles are depreciated 
+    as of Site Release 1.12 scheduled for 
+    2015.04.01 -David Ware
+*/
+.topStories .stories h3 {
+    color: #222;
+    font-family: inherit;
+    font-size: 1em;
+}
+.topStories .stories .image-asset {
+    float: left;
+    height: auto;
+    overflow: hidden;
+    width: 80px;
+}
+.topStories .stories .image-asset + .outline {
+    padding-left: 90px;
+}
+.topStories .floatLeft,
+.topStories .floatRight {
+    padding-bottom: 2em;
+    width: 50%;
+}
+.topStories .floatRight {
+    padding-left: 1em;
+}
+/* end depreciated styles */
+
+/* 
+    Added 2013.03.25 David Ware
+    re-factored CSS to use unordered lists
+*/
+.topStories .image-asset img {
+    width: 100%;
+    margin-top: 4px;
+}
+.topStories ul {
+    float: left;
+    margin: 0;
+    padding:0;
+    width: 50%;
+}
+.topStories li {
+    clear: both;
+    overflow: auto;
+}
+.topStories li h3 {
+    color: #222;
+    font-family: inherit;
+    font-size: 1em;
+}
+.topStories .subfeature {
+    border-right:1px solid #eee;
+    padding-right:1.875em;
+}
+.thin .topStories .subfeature {
+    padding-right: 0.8rem;
+    width: 55%;
+}
+.topStories .subfeature li {
+    margin-bottom: 2em;
+}
+.topStories ul .image-asset {
+    float: left;
+    height: auto;
+    margin-right: 1em;
+    overflow: hidden;
+    width: 80px;
+}
+.topStories .text-links {
+    border-left:1px solid #eee;
+    left: -1px;
+    padding: 0 0 0 1.875em;
+    position: relative;
+}
+.thin .topStories .text-links {
+    padding: 0 0 0 1.2rem;
+    width: 45%;
+}
+.topStories .text-links li {
+    margin-bottom: 1em;
+}
+.topStories .text-links li:last-child {
+    margin-bottom: 0;
+}
+
+
+
+/* /webmd/PageBuilder_Assets/CSS/091e9c5e8000511c/HTML  HH/MagazineAppPromo_091e9c5e80f41b05.css */
+
+div.magazineAppPromo {
+    float: left;
+    display: inline-block;
+    width: 49%;
+}
+div.magazineAppPromo .module-header h3 {
+    color: #666;
+    font-family: inherit;
+    font-size: 0.95em;
+    padding-left: 1.5em;
+}
+div.magazineAppPromo .module-content .backgroundImg {
+    background: url('http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/promos/2014/magazine_app_promo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    min-height: 220px;
+    position: relative;
+}
+div.magazineAppPromo .module-content .webmdBtn {
+    cursor: pointer;
+    display: block;
+    margin: 0;
+    padding: 1em 1em;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    width: 53%;
+    bottom: 10%;
+    left: calc((100% - 53%) / 2);
+}
+.thin div.magazineAppPromo .module-content .webmdBtn {
+    width: 75%;
+    left: calc((100% - 75%) / 2);
+}
+div.magazineAppPromo .module-content .webmdBtn:after {
+    content: "Learn More Now";
+}
+div.magazineAppPromo .module-content {
+    min-height: 250px;
+    position: relative;
+}
+
+
+
+
+/* /webmd/PageBuilder_Assets/CSS/091e9c5e8000511c/HTML  HH/SocialCircle_091e9c5e80f41b07.css */
+
+/* socialCircle related */
+.socialCircle .header h3 {
+    color: #666;
+    font-family: inherit;
+    font-size: 0.95em;
+}
+.socialCircle .facebook:before, .socialCircle .twitter:before, .socialCircle .pinterest:before, .socialCircle .rss:before, .socialCircle .mobile:before {
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+    display: inline-block;
+    margin-right: 1em;
+    width: 38px;
+    height: 39px;
+    vertical-align: middle;
+}
+
+.socialCircle {
+    float: left;
+    display: inline-block;
+    width: 49%;
+    margin-left: 10px;
+    padding: 0 24px 5px 14px;
+    min-height: 286px;
+}
+
+.thin .socialCircle {
+    width: 48%;
+}
+
+.socialCircle .header {
+    margin-bottom: 0.8em;
+}
+
+.socialCircle .module-content {
+    list-style-type: none;
+    width: 100%;
+}
+
+.socialCircle .module-content a {
+    display: inline-block;
+    font-size: 0.9em;
+    border: 0;
+    margin: 0;
+    margin-bottom: 24px;
+    padding: 0;
+    width: 49%;
+    line-height: 39px;
+    font-family: Lato,Arial,Verdata,Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+}
+
+.thin .socialCircle .module-content a {
+    width: 48%
+}
+
+.thin .socialCircle .module-content a span {
+    display: none;
+}
+
+.socialCircle .facebook:before {
+    background-image: url('http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/icons/facebook-icon.png');
+}
+
+.socialCircle .twitter:before {
+    background-image: url('http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/icons/twitter-icon.png');
+}
+
+.socialCircle .pinterest:before {
+    background-image: url('http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/icons/pinterest-icon.png');
+}
+
+.socialCircle .rss:before {
+    background-image: url('http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/icons/rss-icon.png');
+}
+
+.socialCircle .mobile:before {
+    background-image: url('http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/icons/mobile-icon.png');
+}
+
+
+
+
+/* /webmd/PageBuilder_Assets/CSS/091e9c5e80005117/Harmony Carousel/TitleWithColorPlates_091e9c5e80f375ed.css */
+
+.coloredTiles.module .spacer {
+  height: 1em;
+}
+.coloredTiles.module li.thumb {
+  position: relative;
+  height: 188px;
+}
+.coloredTiles.module li.thumb a:first-child {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+}
+.coloredTiles.module li.thumb a:last-child {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+}
+.coloredTiles.module li.thumb a > div.title {
+  color: #fff;
+  width: 100%;
+  padding: 0.5em 1em;
+  font-size: 1.2em;  
+}
+.thin .coloredTiles.module li.thumb {
+  height: 146px;
+}
+.thin .coloredTiles.module li.thumb a:last-child {
+  height: 33px;
+}
+.thin .coloredTiles.module li.thumb a > div.title {
+  font-size: 1.1em;  
+}
+
+
+
+/* /webmd/PageBuilder_Assets/CSS/091e9c5e80005117/Conditions/Default_091e9c5e80f2992c.css */
+
+.featuredTopics .summary {
+    padding: 0 0 0 1.5em;
+    float: right;
+    width: 50%;
+    vertical-align: middle;
+}
+.featuredTopics .module-content h3 {
+    color: #222;
+    font-family: inherit;
+    font-size: 1.5em;
+}
+
+.featuredTopics a:before, .featuredTopics a:after {
+     content: "";
+     display: table;
+}
+
+.featuredTopics a:after {
+    clear: both;
+}
+
+.featuredTopics ul {
+    display: inline-block;
+    list-style-type: none;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    width: 49%;
+}
+.featuredTopics li {
+    display:block;
+    min-height: 20px;
+    clear: both;
+    padding-top: 25px;
+}
+
+.featuredTopics li:first-child {
+    padding-top: 0;
+}
+
+.featuredTopics .mainCondition {
+    position: relative;
+}
+.featuredTopics .mainCondition h3 {
+    line-height: 1.4;
+}
+.thin .featuredTopics .mainCondition h3 {
+    font-size: 1.8rem;
+}
+.featuredTopics .mainCondition p {
+    color: #666;
+    font-weight: 300;
+    font-size: 0.9em;
+}
+.featuredTopics .conditionsLists {
+    border-top: thin solid #eaeaea;
+    padding: 2.5em 0;
+    display:block;
+    clear:both;
+    min-height:20px;
+}
+.featuredTopics .mainCondition .imageAsset {
+    float: left;
+    width: 50%;
+    margin-bottom: 30px;
+
+}
+.featuredTopics .mainCondition .imageAsset img {
+    width: 100%;
+}
+.featuredTopics .conditionsLists .imageAsset {
+    display: inline-block;
+    float: left;
+    width: 80px;
+}
+.featuredTopics .conditionsLists img {
+    width: 80px;
+}
+.featuredTopics .outline {
+    float: left;
+    padding-left: 10px;
+    vertical-align: top;
+    width: 200px;
+}
+.thin .featuredTopics .outline {
+    width: 118px;
+}
+.featuredTopics .outline h3 {
+    font-size: 1.1em;
+}
+.thin .featuredTopics .outline h3 {
+    font-size: 1.6rem;
+}
+
+
+
+
+
